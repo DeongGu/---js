@@ -1,0 +1,77 @@
+.hidden {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-repeat : no-repeat;
+    background-size : cover;
+    min-width: 1080px;
+    min-height: 600px;
+}
+
+.form {
+    width: 400px;
+    text-align: left;
+    margin: 30px 20px 20px auto;
+}
+
+.form input {
+    height: 30px;
+    border: 3px solid #343533;
+    background-color: aquamarine;
+    width: 350px;
+}
+
+#login-form button {
+    height: 35px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#todoList {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: aliceblue;
+    opacity: 0.7;
+}
+#greeting {
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color:pink;
+}
+
+.date {
+    text-align: center;
+    width: 300px;
+    margin: 20px 70px 10px auto;
+}
+#timeTable {
+    font-size: 50px;
+    font-weight: bold;
+    color:white;
+}
+#weather {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+}
+#weatherImage {
+    display: block;
+    text-align: right;
+    font-size: 50px;
+    color: azure;
+    margin-right: 150px;
+}
+
+#dayTable {
+    font-size: 30px;
+    font-weight: bold;
+    color:darkorange;
+}
